@@ -5199,3 +5199,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 18:56:04.154] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [11Jan2025 19:01:04.135] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [11Jan2025 19:01:04.144] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 19:06:04.141] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 19:06:04.149] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 19:11:04.142] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 19:11:04.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
