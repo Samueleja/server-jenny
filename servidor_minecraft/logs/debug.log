@@ -5195,3 +5195,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 18:52:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
 [11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
 [11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[11Jan2025 18:56:04.145] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 18:56:04.154] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 19:01:04.135] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 19:01:04.144] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
