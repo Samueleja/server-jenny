@@ -344,3 +344,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 17:51:29.678] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:41809] logged in with entity id 24674 at (-239.8163035537766, 60.0, 349.360030263038)
 [11Jan2025 17:51:29.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
 [11Jan2025 17:51:29.778] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[11Jan2025 17:54:57.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[11Jan2025 17:54:57.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[11Jan2025 17:57:34.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Hidden in the Depths]

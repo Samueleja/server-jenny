@@ -3269,6 +3269,12 @@
     },
     "done": true
   },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2025-01-11 17:53:35 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/misc/soul_jack_o_lantern": {
     "criteria": {
       "has_item": "2025-01-11 17:43:04 +0000"
@@ -3289,6 +3295,12 @@
       "minecraft:warped_forest": "2025-01-11 17:31:56 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-11 17:57:34 +0000"
+    },
+    "done": true
   },
   "netherexp:recipes/ivy/weeping_ivy": {
     "criteria": {
@@ -3365,6 +3377,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2025-01-11 17:43:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-01-11 17:57:34 +0000"
     },
     "done": true
   },
@@ -3464,6 +3482,12 @@
     },
     "done": false
   },
+  "clayworks:recipes/misc/nether_brick_from_baking": {
+    "criteria": {
+      "has_netherrack": "2025-01-11 17:53:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-11 17:38:28 +0000"
@@ -3533,6 +3557,12 @@
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2025-01-11 17:34:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-11 17:53:35 +0000"
     },
     "done": true
   },
@@ -3641,6 +3671,12 @@
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2025-01-11 17:43:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-01-11 17:57:34 +0000"
     },
     "done": true
   },
