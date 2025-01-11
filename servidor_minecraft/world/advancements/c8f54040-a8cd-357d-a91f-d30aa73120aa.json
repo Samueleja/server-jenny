@@ -4096,6 +4096,19 @@
     },
     "done": true
   },
+  "tetra:upgrades/hammer_4": {
+    "criteria": {
+      "head_left": "2025-01-11 18:16:58 +0000",
+      "head_right": "2025-01-11 18:16:52 +0000"
+    },
+    "done": true
+  },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-01-11 18:13:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-01-11 18:10:02 +0000"
