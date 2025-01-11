@@ -3270,6 +3270,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
     "criteria": {
       "has_item": "2025-01-11 17:53:35 +0000"
@@ -3315,6 +3321,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/misc/soul_torch_from_fossil_fuel": {
     "criteria": {
       "has_item": "2025-01-11 17:43:04 +0000"
@@ -3357,6 +3375,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crimson_sign": {
     "criteria": {
       "has_planks": "2025-01-11 17:25:38 +0000"
@@ -3372,6 +3396,18 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-01-11 17:38:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },
@@ -3561,6 +3597,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-01-11 18:31:44 +0000"
+    },
+    "done": true
+  },
   "tetra:upgrades/hammer_4": {
     "criteria": {
       "head_left": "2025-01-11 18:16:34 +0000",
@@ -3601,6 +3643,12 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2025-01-11 18:06:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },
@@ -3742,9 +3790,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2025-01-11 18:06:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },
@@ -3790,6 +3850,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-01-11 17:28:32 +0000"
@@ -3808,6 +3874,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-01-11 18:06:52 +0000"
@@ -3817,6 +3889,12 @@
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2025-01-11 18:06:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },
@@ -3862,6 +3940,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-01-11 17:38:28 +0000"
@@ -3901,6 +3985,12 @@
   "minecraft:recipes/building_blocks/crimson_hyphae": {
     "criteria": {
       "has_log": "2025-01-11 17:24:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },
@@ -3979,6 +4069,12 @@
   "galosphere:recipes/building_blocks/chiseled_amethyst_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:56 +0000"
+    },
+    "done": true
+  },
+  "clayworks:recipes/building_blocks/smooth_stone_from_baking": {
+    "criteria": {
+      "has_stone": "2025-01-11 18:31:36 +0000"
     },
     "done": true
   },

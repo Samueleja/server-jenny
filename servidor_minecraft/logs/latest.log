@@ -360,3 +360,10 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 18:16:36.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has reached the goal [Hammer IV (Blackstone)]
 [11Jan2025 18:16:58.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Hammer IV (Blackstone)]
 [11Jan2025 18:21:54.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 2442 124 -1061
+[11Jan2025 18:22:33.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Creative Mode]
+[11Jan2025 18:22:36.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Survival Mode]
+[11Jan2025 18:22:44.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat hit the ground too hard
+[11Jan2025 18:22:54.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Spectator Mode]
+[11Jan2025 18:22:55.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Survival Mode]
+[11Jan2025 18:24:25.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Hidden in the Depths]
+[11Jan2025 18:34:02.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat suffocated in a wall
