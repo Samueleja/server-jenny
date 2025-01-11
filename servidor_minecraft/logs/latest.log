@@ -347,3 +347,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 17:54:57.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
 [11Jan2025 17:54:57.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
 [11Jan2025 17:57:34.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Hidden in the Depths]
+[11Jan2025 18:08:09.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:39209] logged in with entity id 29013 at (-219.37044530117092, 93.0, 265.30000001192093)
+[11Jan2025 18:08:09.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[11Jan2025 18:08:09.690] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[11Jan2025 18:08:12.661] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VeinGoblinTrader['Jose Manuel Alberto de las Montañas de los Andes I'/28823, l='ServerLevel[world]', x=317.57, y=35.23, z=-110.73] died: Jose Manuel Alberto de las Montañas de los Andes I hit the ground too hard
+[11Jan2025 18:08:27.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> tp
+[11Jan2025 18:08:51.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Teleported SimpleBruhCat to Samueleja]
+[11Jan2025 18:10:02.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Those Were the Days]
+[11Jan2025 18:10:06.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Those Were the Days]

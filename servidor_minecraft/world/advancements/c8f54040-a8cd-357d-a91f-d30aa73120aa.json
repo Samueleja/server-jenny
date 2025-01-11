@@ -4096,5 +4096,11 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-01-11 18:10:02 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
