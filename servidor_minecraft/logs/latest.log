@@ -367,3 +367,13 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 18:22:55.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Survival Mode]
 [11Jan2025 18:24:25.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Hidden in the Depths]
 [11Jan2025 18:34:02.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat suffocated in a wall
+[11Jan2025 18:52:18.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> oe
+[11Jan2025 18:52:31.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> ya me voy ya
+[11Jan2025 18:52:34.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> voy a comer
+[11Jan2025 18:52:37.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> y pasear a mi perroi
+[11Jan2025 18:52:38.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> :v
+[11Jan2025 18:52:41.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> aea
+[11Jan2025 18:52:43.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja lost connection: Disconnected
+[11Jan2025 18:52:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
+[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game

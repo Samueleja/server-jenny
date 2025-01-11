@@ -5133,3 +5133,65 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 18:42:48.016] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
 [11Jan2025 18:42:48.016] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
 [11Jan2025 18:42:51.797] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
+[11Jan2025 18:43:07.668] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:43:07.668] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:43:07.668] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:43:07.668] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:43:57.919] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 18:45:56.219] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 18:45:56.767] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 18:46:04.203] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 18:46:04.220] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 18:46:41.036] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 18:47:28.716] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:47:28.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:47:28.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:47:28.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
+[11Jan2025 18:47:29.474] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:47:41.968] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (6fc7abd1-094c-44d1-a6a3-f7d04314770d)
+[11Jan2025 18:47:41.968] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (6fc7abd1-094c-44d1-a6a3-f7d04314770d)
+[11Jan2025 18:47:42.019] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (6fc7abd1-094c-44d1-a6a3-f7d04314770d)
+[11Jan2025 18:47:48.017] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 18:47:49.018] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 18:48:20.317] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:48:20.317] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:48:20.317] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:48:20.317] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
+[11Jan2025 18:48:20.387] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 18:48:26.012] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (8c7afdb9-f20f-4db9-8217-47ba8d0e4724)
+[11Jan2025 18:48:26.013] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (8c7afdb9-f20f-4db9-8217-47ba8d0e4724)
+[11Jan2025 18:48:26.013] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (8c7afdb9-f20f-4db9-8217-47ba8d0e4724)
+[11Jan2025 18:48:26.263] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (3288129d-25f7-44a0-8426-1181ee202dd4)
+[11Jan2025 18:48:26.263] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (3288129d-25f7-44a0-8426-1181ee202dd4)
+[11Jan2025 18:48:26.314] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (3288129d-25f7-44a0-8426-1181ee202dd4)
+[11Jan2025 18:49:21.222] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 18:49:21.222] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (c889c87e-11df-4170-8c80-6a9cb3bbf5ef)
+[11Jan2025 18:49:21.223] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (74c76e4b-3e35-445a-a693-1732531a0ad6)
+[11Jan2025 18:49:21.225] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (d7c37a30-08f6-46a8-9009-d499e4b16789)
+[11Jan2025 18:49:21.226] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 18:49:37.647] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (91d59f93-12e7-4cce-a87d-4e5e71a22174)
+[11Jan2025 18:49:37.647] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (af535ae5-99ef-4e99-a7cf-7a72c3c8e47f)
+[11Jan2025 18:49:37.647] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (cc0eddc2-44db-4183-b065-85e721099f67)
+[11Jan2025 18:49:37.648] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (729a6487-c992-4f6e-b493-4666f5004da5)
+[11Jan2025 18:49:40.439] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (237e3d98-26a4-4600-8029-c7db6924f4f1)
+[11Jan2025 18:49:43.815] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (237e3d98-26a4-4600-8029-c7db6924f4f1)
+[11Jan2025 18:49:43.815] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (237e3d98-26a4-4600-8029-c7db6924f4f1)
+[11Jan2025 18:49:44.589] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (237e3d98-26a4-4600-8029-c7db6924f4f1)
+[11Jan2025 18:49:58.239] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_bow)
+[11Jan2025 18:50:56.265] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 18:50:56.783] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 18:51:04.199] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 18:51:04.213] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 18:52:18.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> oe
+[11Jan2025 18:52:28.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:52:28.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:52:28.918] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (55e112db-35b5-4336-ad42-117cb26c1d0e)
+[11Jan2025 18:52:31.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> ya me voy ya
+[11Jan2025 18:52:34.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> voy a comer
+[11Jan2025 18:52:37.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> y pasear a mi perroi
+[11Jan2025 18:52:38.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> :v
+[11Jan2025 18:52:41.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> aea
+[11Jan2025 18:52:43.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja lost connection: Disconnected
+[11Jan2025 18:52:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
+[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
