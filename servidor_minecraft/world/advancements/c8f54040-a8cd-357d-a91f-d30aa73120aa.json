@@ -431,6 +431,7 @@
       "minecraft:skeleton": "2025-01-10 21:09:17 +0000",
       "minecraft:spider": "2025-01-10 21:08:41 +0000",
       "minecraft:creeper": "2025-01-10 21:50:56 +0000",
+      "minecraft:stray": "2025-01-11 16:53:23 +0000",
       "minecraft:zombie": "2025-01-10 21:02:16 +0000"
     },
     "done": false
@@ -3299,6 +3300,24 @@
     },
     "done": true
   },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-01-11 16:53:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 16:53:42 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_cell": {
+    "criteria": {
+      "get_cell": "2025-01-11 16:53:52 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_slab": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
@@ -3311,9 +3330,21 @@
     },
     "done": true
   },
+  "tetra:spelunking/hammer_remove": {
+    "criteria": {
+      "module": "2025-01-11 16:54:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-01-11 16:40:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 16:53:42 +0000"
     },
     "done": true
   },
@@ -3323,11 +3354,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 16:53:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2025-01-11 16:40:10 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-01-11 16:53:40 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/chthonic_extractor": {
+    "criteria": {
+      "earthpiercer": "2025-01-11 16:47:00 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_3": {
+    "criteria": {
+      "head_right": "2025-01-11 16:48:36 +0000"
+    },
+    "done": false
   },
   "galosphere:recipes/building_blocks/smooth_amethyst": {
     "criteria": {
@@ -3335,9 +3390,21 @@
     },
     "done": true
   },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2025-01-11 16:51:38 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_brick_stairs_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "galosphere:recipes/tools/glow_flare": {
+    "criteria": {
+      "has_copper_ingot": "2025-01-11 16:53:42 +0000"
     },
     "done": true
   },
@@ -3365,6 +3432,12 @@
     },
     "done": true
   },
+  "tetra:spelunking/containers": {
+    "criteria": {
+      "crate1": "2025-01-11 16:54:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2025-01-11 16:16:52 +0000"
@@ -3374,6 +3447,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-01-11 16:16:52 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_planar": {
+    "criteria": {
+      "find_planar": "2025-01-11 16:51:57 +0000"
     },
     "done": true
   },
@@ -3390,9 +3469,27 @@
     },
     "done": true
   },
+  "tetra:recipes/forged_mesh": {
+    "criteria": {
+      "got_mesh": "2025-01-11 16:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-01-11 16:53:23 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/ancient_ruins": {
     "criteria": {
       "regular_ruin": "2025-01-11 16:42:44 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_bolt": {
+    "criteria": {
+      "forged_bolt": "2025-01-11 16:56:36 +0000"
     },
     "done": true
   },
@@ -3429,6 +3526,12 @@
   "galosphere:recipes/building_blocks/amethyst_stairs_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-01-11 16:53:40 +0000"
     },
     "done": true
   },

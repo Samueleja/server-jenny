@@ -3715,3 +3715,125 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 16:50:31.159] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
 [11Jan2025 16:50:31.159] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
 [11Jan2025 16:50:31.408] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
+[11Jan2025 16:50:52.376] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 16:50:52.387] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 16:50:55.559] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 16:50:56.213] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 16:51:00.324] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:51:21.834] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
+[11Jan2025 16:51:34.193] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
+[11Jan2025 16:51:34.193] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:51:34.211] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:51:38.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Chest Slayer]
+[11Jan2025 16:51:51.124] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({Damage:293,"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:51:51.124] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  ({Damage:293,"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:51:57.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Intradimensional Technology]
+[11Jan2025 16:52:32.407] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:53:12.519] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:53:12.524] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:53:23.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has completed the challenge [It Spreads]
+[11Jan2025 16:53:33.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> oh no
+[11Jan2025 16:53:39.076] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:53:46.912] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:53:50.312] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (d0b8070c-8ded-44af-9fb7-245499d2c261)
+[11Jan2025 16:53:50.360] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (cbb94ce1-c5eb-401b-b290-95f6922cfb95)
+[11Jan2025 16:53:50.361] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (cbb94ce1-c5eb-401b-b290-95f6922cfb95)
+[11Jan2025 16:53:50.412] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (cbb94ce1-c5eb-401b-b290-95f6922cfb95)
+[11Jan2025 16:53:50.695] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:53:50.696] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (8467702f-b85d-4a8f-9ba0-39fdc87f741d)
+[11Jan2025 16:53:52.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Thermal Container]
+[11Jan2025 16:53:52.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Thermal Transfer]
+[11Jan2025 16:53:52.666] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (spelunking/hammer_remove)
+[11Jan2025 16:53:54.614] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:54:00.368] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_shield)
+[11Jan2025 16:54:00.368] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:54:01.859] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:54:01.909] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:54:02.571] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:54:14.513] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/butt_right_material":"butt/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/butt_right"})
+[11Jan2025 16:54:18.313] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:54:30.743] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:54:30.743] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:54:30.744] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:54:30.744] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({Damage:0,"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/claw_right_material":"claw/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/claw_right"})
+[11Jan2025 16:54:30.745] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({Damage:0,"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/butt_right_material":"butt/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/butt_right"})
+[11Jan2025 16:54:30.745] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  ({Damage:0,"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/butt_right_material":"butt/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/butt_right"})
+[11Jan2025 16:54:30.746] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({Damage:0,"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/claw_right_material":"claw/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/claw_right"})
+[11Jan2025 16:54:30.746] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  ({Damage:0,"double/basic_axe_left_material":"basic_axe/iron","double/basic_handle_material":"basic_handle/stick","double/claw_right_material":"claw/iron","double/handle":"double/basic_handle","double/head_left":"double/basic_axe_left","double/head_right":"double/claw_right"})
+[11Jan2025 16:54:30.746] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:54:30.746] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:54:33.862] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:54:34.669] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:54:34.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Clawfinger]
+[11Jan2025 16:54:42.730] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/container_large
+[11Jan2025 16:54:42.735] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/shaft_large
+[11Jan2025 16:54:42.738] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/large_cap_4
+[11Jan2025 16:54:42.740] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/intersection_5_a
+[11Jan2025 16:54:42.744] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/cave_2
+[11Jan2025 16:54:42.747] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/small_entrance_1
+[11Jan2025 16:54:42.750] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/crate_3_5
+[11Jan2025 16:54:42.752] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/shaft_large_cap_down
+[11Jan2025 16:54:42.755] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of tetra:forged_ruins/crate_3_1
+[11Jan2025 16:54:44.439] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:54:51.556] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of paraglider:plains_village_horned_statue
+[11Jan2025 16:54:51.561] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of paraglider:horned_statue/no
+[11Jan2025 16:54:51.565] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of paraglider:hateno_village_goddess_statue
+[11Jan2025 16:54:51.573] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of paraglider:horned_statue/yes
+[11Jan2025 16:54:53.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement ["Salvage"]
+[11Jan2025 16:54:53.806] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (spelunking/use_bolt)
+[11Jan2025 16:55:11.813] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:55:11.862] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:55:52.413] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 16:55:52.427] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 16:55:55.565] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 16:55:56.276] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 16:55:57.115] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({Damage:301,"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:55:57.116] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  ({Damage:301,"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:56:06.662] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
+[11Jan2025 16:56:06.662] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
+[11Jan2025 16:56:06.712] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (0cdd50a4-5c29-43e6-a1ad-3ef459e9052b)
+[11Jan2025 16:56:09.948] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (237e3d98-26a4-4600-8029-c7db6924f4f1)
+[11Jan2025 16:56:09.951] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_bow)
+[11Jan2025 16:56:22.714] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:56:23.380] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_double)
+[11Jan2025 16:56:36.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Universal Fastener]
+[11Jan2025 16:56:42.816] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
+[11Jan2025 16:57:53.690] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (2c2f1d3a-da97-4857-9954-7c0caa19b820)
+[11Jan2025 16:57:53.694] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (9a3409cf-04f9-4e43-8f8b-0f38d3b58954)
+[11Jan2025 16:57:53.694] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (9a3409cf-04f9-4e43-8f8b-0f38d3b58954)
+[11Jan2025 16:58:21.723] [Worker-Main-1/DEBUG] [ModernFix/]: Using cached upgraded version of environmental:log_cabin/log_cabin_1
+[11Jan2025 16:58:36.834] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:58:36.834] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (9a3409cf-04f9-4e43-8f8b-0f38d3b58954)
+[11Jan2025 16:58:36.835] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (a0838923-2ff2-45f9-9ee6-db37aeb72e82)
+[11Jan2025 16:58:36.836] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (a0838923-2ff2-45f9-9ee6-db37aeb72e82)
+[11Jan2025 16:58:50.717] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:58:50.820] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:58:50.820] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (a0838923-2ff2-45f9-9ee6-db37aeb72e82)
+[11Jan2025 16:58:50.821] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (3aea8b06-bfe2-4bef-b976-4347cf5f3cea)
+[11Jan2025 16:58:50.821] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (3aea8b06-bfe2-4bef-b976-4347cf5f3cea)
+[11Jan2025 16:58:54.620] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:58:54.671] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (3aea8b06-bfe2-4bef-b976-4347cf5f3cea)
+[11Jan2025 16:59:00.568] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (254fd542-a24c-4c2f-9357-8a3d257c6dd2)
+[11Jan2025 16:59:00.617] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:59:10.715] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:59:10.715] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:59:12.169] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (fcc378f0-d480-48e3-8ab7-18594881552a)
+[11Jan2025 16:59:12.170] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_shield)
+[11Jan2025 16:59:12.170] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  ({"shield/basic_grip_material":"basic_grip/iron","shield/grip":"shield/basic_grip","shield/plate":"shield/tower","shield/plate:shield/studs/iron":0,"shield/plate:shield/trim/iron":0,"shield/tower_material":"tower/oak"})
+[11Jan2025 16:59:21.367] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 16:59:38.074] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (948a454d-f41e-473d-94b6-9117fa153010)
+[11Jan2025 16:59:38.074] [Netty Epoll Server IO #3/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:59:39.067] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (8467702f-b85d-4a8f-9ba0-39fdc87f741d)
+[11Jan2025 16:59:39.067] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (cbb94ce1-c5eb-401b-b290-95f6922cfb95)
+[11Jan2025 16:59:39.068] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (d0b8070c-8ded-44af-9fb7-245499d2c261)
+[11Jan2025 16:59:46.432] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:59:46.483] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 16:59:47.345] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem/]: Gathering tool data for  (f0d8fb97-f352-4b98-813d-61ff991c4b65)
+[11Jan2025 17:00:14.618] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (90787399-8497-47e0-883a-9455a29779c0)
+[11Jan2025 17:00:32.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2447, y=64, z=-515} BlockPos{x=2447, y=62, z=-514}
+[11Jan2025 17:00:41.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja moved too quickly! 9.426731153593664,1.2491870787446828,3.3895059832602215
+[11Jan2025 17:00:50.321] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2527, y=64, z=-485} BlockPos{x=2528, y=62, z=-484}
+[11Jan2025 17:00:52.539] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jan2025 17:00:52.552] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jan2025 17:00:55.597] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[11Jan2025 17:00:56.278] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
