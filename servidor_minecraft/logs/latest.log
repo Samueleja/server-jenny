@@ -296,3 +296,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 16:13:25.410] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
 [11Jan2025 16:18:39.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Getting Another Upgrade]
 [11Jan2025 16:19:16.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 0.05
+[11Jan2025 16:29:01.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [You Monster...]
+[11Jan2025 16:29:01.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has completed the challenge [Overkill]
+[11Jan2025 16:29:32.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Amateur Archaeologist]
