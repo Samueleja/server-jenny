@@ -16,6 +16,7 @@
       "minecraft:taiga": "2025-01-10 23:09:09 +0000",
       "minecraft:deep_ocean": "2025-01-10 22:44:47 +0000",
       "minecraft:cherry_grove": "2025-01-10 23:21:18 +0000",
+      "minecraft:sunflower_plains": "2025-01-11 17:02:47 +0000",
       "minecraft:bamboo_jungle": "2025-01-10 21:06:57 +0000",
       "minecraft:beach": "2025-01-10 22:45:54 +0000",
       "environmental:environmental:blossom_woods": "2025-01-10 23:20:47 +0000",
@@ -817,6 +818,7 @@
       "cooked_beef": "2025-01-10 21:12:45 +0000",
       "baked_potato": "2025-01-10 23:49:25 +0000",
       "cooked_cod": "2025-01-10 23:17:17 +0000",
+      "mutton": "2025-01-11 17:05:06 +0000",
       "bread": "2025-01-10 22:48:10 +0000",
       "environmental:cherries": "2025-01-10 23:29:29 +0000",
       "suspicious_stew": "2025-01-10 23:10:51 +0000",
@@ -3258,6 +3260,12 @@
   "tetra:upgrades/sword_integrity": {
     "criteria": {
       "module": "2025-01-11 02:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-01-11 17:09:28 +0000"
     },
     "done": true
   },
