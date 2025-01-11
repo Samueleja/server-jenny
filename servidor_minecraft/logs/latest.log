@@ -320,3 +320,27 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [11Jan2025 17:00:50.321] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2527, y=64, z=-485} BlockPos{x=2528, y=62, z=-484}
 [11Jan2025 17:01:05.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
 [11Jan2025 17:10:01.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Tightly Wrought]
+[11Jan2025 17:11:30.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Hammer III (Iron)]
+[11Jan2025 17:18:51.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has reached the goal [Half a flight]
+[11Jan2025 17:19:06.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Half a flight]
+[11Jan2025 17:19:19.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [We Need to Go Deeper]
+[11Jan2025 17:19:25.417] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9619ms or 192 ticks behind
+[11Jan2025 17:19:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [We Need to Go Deeper]
+[11Jan2025 17:25:04.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 133 45 33
+[11Jan2025 17:34:13.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [A Terrible Fortress]
+[11Jan2025 17:34:17.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [A Terrible Fortress]
+[11Jan2025 17:34:34.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Into Fire]
+[11Jan2025 17:35:25.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Into Fire]
+[11Jan2025 17:36:54.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Arcane Additions]
+[11Jan2025 17:37:18.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> -532 58 472
+[11Jan2025 17:39:50.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Frightening Rush]
+[11Jan2025 17:39:51.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Frightening Rush]
+[11Jan2025 17:39:55.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Phasmophobic]
+[11Jan2025 17:40:05.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Phasmophobic]
+[11Jan2025 17:43:47.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Arcane Additions]
+[11Jan2025 17:43:55.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Non-renewable? Yeah, right..]
+[11Jan2025 17:45:36.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[11Jan2025 17:45:36.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[11Jan2025 17:51:29.678] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:41809] logged in with entity id 24674 at (-239.8163035537766, 60.0, 349.360030263038)
+[11Jan2025 17:51:29.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[11Jan2025 17:51:29.778] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat

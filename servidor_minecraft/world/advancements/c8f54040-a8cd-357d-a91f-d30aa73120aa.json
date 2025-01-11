@@ -431,6 +431,8 @@
       "minecraft:skeleton": "2025-01-10 21:09:17 +0000",
       "minecraft:spider": "2025-01-10 21:08:41 +0000",
       "minecraft:creeper": "2025-01-10 21:50:56 +0000",
+      "minecraft:wither_skeleton": "2025-01-11 17:38:11 +0000",
+      "minecraft:piglin": "2025-01-11 17:22:19 +0000",
       "minecraft:stray": "2025-01-11 16:53:23 +0000",
       "minecraft:zombie": "2025-01-10 21:02:16 +0000"
     },
@@ -1338,6 +1340,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-01-11 17:26:28 +0000",
       "cooked_beef": "2025-01-10 21:36:41 +0000",
       "apple": "2025-01-10 22:36:29 +0000",
       "potato": "2025-01-11 00:30:19 +0000",
@@ -3277,15 +3280,42 @@
     },
     "done": true
   },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2025-01-11 17:27:29 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_jack_o_lantern": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-01-11 16:40:09 +0000"
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-01-11 17:19:28 +0000",
+      "minecraft:nether_wastes": "2025-01-11 17:24:58 +0000",
+      "minecraft:basalt_deltas": "2025-01-11 17:28:57 +0000",
+      "minecraft:warped_forest": "2025-01-11 17:32:04 +0000"
+    },
+    "done": false
+  },
   "tetra:upgrades/tool_upgrade": {
     "criteria": {
       "axe": "2025-01-11 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/soul_slate_tiles/indented": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:41:05 +0000"
     },
     "done": true
   },
@@ -3295,9 +3325,57 @@
     },
     "done": true
   },
+  "netherexp:recipes/ivy/weeping_ivy": {
+    "criteria": {
+      "has_item": "2025-01-11 17:20:23 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_brick_slab_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/soul_slate_tiles/chiseled": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:41:05 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_torch_from_fossil_fuel": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-01-11 17:21:48 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_skeleton_skull_candle": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-01-11 17:35:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
     },
     "done": true
   },
@@ -3307,9 +3385,33 @@
     },
     "done": true
   },
+  "netherexp:recipes/soul_slate_tiles/slab": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:41:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-01-11 16:53:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
     },
     "done": true
   },
@@ -3325,9 +3427,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_slab": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2025-01-11 17:19:06 +0000"
     },
     "done": true
   },
@@ -3343,15 +3481,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-01-11 16:40:07 +0000"
     },
     "done": true
   },
+  "netherexp:recipes/misc/ghoul_o_lantern": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2025-01-11 16:53:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
     },
     "done": true
   },
@@ -3367,9 +3523,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2025-01-11 16:40:10 +0000"
+    },
+    "done": true
+  },
+  "clayworks:recipes/misc/nether_brick_from_baking": {
+    "criteria": {
+      "has_netherrack": "2025-01-11 17:27:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
     },
     "done": true
   },
@@ -3379,9 +3553,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_ghoul_o_lantern": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:34 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/pumpkin_seeds_from_sorrowsquash": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2025-01-11 16:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
     },
     "done": true
   },
@@ -3391,15 +3595,52 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-01-11 17:36:52 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/enter_soul_glass": {
+    "criteria": {
+      "condition": "2025-01-11 17:40:05 +0000"
+    },
+    "done": true
+  },
   "tetra:upgrades/hammer_3": {
     "criteria": {
+      "head_left": "2025-01-11 17:11:30 +0000",
       "head_right": "2025-01-11 16:48:36 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "netherexp:recipes/misc/cooked_hogham": {
+    "criteria": {
+      "has_item": "2025-01-11 17:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-01-11 17:34:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-11 17:27:29 +0000"
+    },
+    "done": true
   },
   "galosphere:recipes/building_blocks/smooth_amethyst": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-01-11 17:24:18 +0000"
     },
     "done": true
   },
@@ -3409,9 +3650,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/ivy/twisting_ivy": {
+    "criteria": {
+      "has_item": "2025-01-11 17:32:11 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_brick_stairs_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
     },
     "done": true
   },
@@ -3421,9 +3686,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/amethyst_slab_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/wither/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/soul_slate_tiles/wall": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:41:05 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/non_renewable_yeah_right": {
+    "criteria": {
+      "killed_entity": "2025-01-11 17:43:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-11 17:19:27 +0000"
     },
     "done": true
   },
@@ -3433,15 +3728,45 @@
     },
     "done": true
   },
+  "netherexp:recipes/misc/soul_magma_block": {
+    "criteria": {
+      "has_item2": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-01-11 16:40:07 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-11 17:36:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-01-11 17:43:00 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/building_blocks/smooth_amethyst_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_gild": {
+    "criteria": {
+      "find": "2025-01-11 17:36:54 +0000"
     },
     "done": true
   },
@@ -3457,6 +3782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-01-11 16:16:52 +0000"
@@ -3469,10 +3800,52 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2025-01-11 17:19:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-01-11 16:40:07 +0000",
       "has_the_recipe": "2025-01-11 16:40:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-01-11 17:25:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/soul_slate_tiles/stairs": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:41:05 +0000"
     },
     "done": true
   },
@@ -3500,9 +3873,33 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-11 17:19:27 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/find_bolt": {
     "criteria": {
       "forged_bolt": "2025-01-11 16:56:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_soil_layer": {
+    "criteria": {
+      "has_item": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/frightening_rush": {
+    "criteria": {
+      "condition": "2025-01-11 17:39:51 +0000"
     },
     "done": true
   },
@@ -3512,9 +3909,57 @@
     },
     "done": true
   },
+  "netherexp:recipes/misc/soul_candle": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
   "netherexp:nether/overkill": {
     "criteria": {
       "overkill": "2025-01-11 16:29:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-01-11 17:40:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-01-11 17:21:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/geysers/basaltic": {
+    "criteria": {
+      "has_item": "2025-01-11 17:28:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-11 17:35:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-11 17:25:48 +0000"
     },
     "done": true
   },
@@ -3527,6 +3972,12 @@
   "galosphere:recipes/building_blocks/amethyst_bricks_from_amethyst_block_stonecutting": {
     "criteria": {
       "has_amethyst_block": "2025-01-11 16:32:35 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2025-01-11 17:19:06 +0000"
     },
     "done": true
   },
@@ -3545,6 +3996,18 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-01-11 16:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-01-11 17:35:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-01-11 17:38:27 +0000"
     },
     "done": true
   },
