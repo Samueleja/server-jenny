@@ -1,58 +1,54 @@
-[11Jan2025 16:09:52.456] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[11Jan2025 16:09:52.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[11Jan2025 16:09:53.633] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11Jan2025 16:09:53.739] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-jenny/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[11Jan2025 16:09:54.140] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 16:09:54.143] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 16:09:54.148] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 16:09:54.150] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[11Jan2025 16:09:54.506] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/server-jenny/servidor_minecraft/mods/geckolib-forge-1.20.1-4.7.jar
-[11Jan2025 16:09:54.507] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[11Jan2025 16:09:58.860] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jan2025 16:09:59.187] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.registry.coremod.CrypticCoreMod]
-[11Jan2025 16:09:59.192] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.midnight.coremod.MidnightCoreMod]
-[11Jan2025 16:09:59.204] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[11Jan2025 16:09:59.479] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
-[11Jan2025 16:09:59.480] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[11Jan2025 16:09:59.531] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[11Jan2025 16:09:59.719] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 16:09:59.732] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 16:09:59.734] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[11Jan2025 16:10:03.189] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/EntityLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.EntityLighting$Builder)
-[11Jan2025 16:10:03.189] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.EntityLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.EntityLightingBuilderAccessor
-[11Jan2025 16:10:03.197] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/ItemLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.ItemLighting$Builder)
-[11Jan2025 16:10:03.197] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.ItemLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.ItemLightingBuilderAccessor
-[11Jan2025 16:10:03.494] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[11Jan2025 16:10:04.735] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (16.14 s after launch)
-[11Jan2025 16:10:05.109] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[11Jan2025 16:10:05.110] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[11Jan2025 16:10:09.079] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 4325 milliseconds
-[11Jan2025 16:10:12.559] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[11Jan2025 16:10:14.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[11Jan2025 16:10:14.343] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[11Jan2025 16:10:14.345] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[11Jan2025 16:10:14.346] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[11Jan2025 16:10:14.349] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[11Jan2025 16:10:14.350] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[11Jan2025 16:10:14.355] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[11Jan2025 16:10:14.357] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[11Jan2025 16:10:14.624] [modloading-worker-0/INFO] [Midnight/]: Welcome back to The Midnight. Shall we resume the spread of the malaise?
-[11Jan2025 16:10:15.689] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[11Jan2025 16:10:15.689] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[11Jan2025 16:10:15.770] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[11Jan2025 16:10:19.061] [main/INFO] [Moonlight/]: Initialized block sets in 43ms
-[11Jan2025 16:10:19.679] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[11Jan2025 16:10:19.680] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
-[11Jan2025 16:10:22.328] [main/INFO] [Moonlight/]: Initialized color sets in 92ms
-[11Jan2025 16:10:22.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[11Jan2025 16:10:23.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.47 Target: null
-[11Jan2025 16:10:23.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[11Jan2025 16:10:23.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[11Jan2025 16:10:23.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
-[11Jan2025 16:10:23.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
-[11Jan2025 16:10:23.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Starting version check at https://changelogs.moddinglegacy.com/midnight.json
-[11Jan2025 16:10:23.852] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11Jan2025 16:10:24.049] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jan2025 20:43:46.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Jan2025 20:43:46.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[13Jan2025 20:43:52.589] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Jan2025 20:43:52.860] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-jenny/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Jan2025 20:43:53.885] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jan2025 20:43:53.890] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jan2025 20:43:53.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jan2025 20:43:53.895] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-jenny/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jan2025 20:43:55.265] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/server-jenny/servidor_minecraft/mods/geckolib-forge-1.20.1-4.7.jar
+[13Jan2025 20:43:55.266] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[13Jan2025 20:44:02.385] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jan2025 20:44:02.895] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.registry.coremod.CrypticCoreMod]
+[13Jan2025 20:44:02.912] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.midnight.coremod.MidnightCoreMod]
+[13Jan2025 20:44:02.927] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Jan2025 20:44:03.436] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
+[13Jan2025 20:44:03.439] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[13Jan2025 20:44:03.476] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[13Jan2025 20:44:03.818] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jan2025 20:44:03.832] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jan2025 20:44:03.835] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[13Jan2025 20:44:09.193] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/EntityLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.EntityLighting$Builder)
+[13Jan2025 20:44:09.197] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.EntityLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.EntityLightingBuilderAccessor
+[13Jan2025 20:44:09.204] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/ItemLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.ItemLighting$Builder)
+[13Jan2025 20:44:09.207] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.ItemLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.ItemLightingBuilderAccessor
+[13Jan2025 20:44:09.758] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13Jan2025 20:44:14.934] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (42.13 s after launch)
+[13Jan2025 20:44:15.563] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13Jan2025 20:44:15.569] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13Jan2025 20:44:22.060] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 7113 milliseconds
+[13Jan2025 20:44:28.731] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13Jan2025 20:44:31.367] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Jan2025 20:44:31.374] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[13Jan2025 20:44:31.391] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[13Jan2025 20:44:31.395] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[13Jan2025 20:44:31.398] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[13Jan2025 20:44:31.402] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[13Jan2025 20:44:31.407] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[13Jan2025 20:44:31.424] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[13Jan2025 20:44:31.785] [modloading-worker-0/INFO] [Midnight/]: Welcome back to The Midnight. Shall we resume the spread of the malaise?
+[13Jan2025 20:44:33.564] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Jan2025 20:44:33.568] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Jan2025 20:44:33.643] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Jan2025 20:44:38.305] [main/INFO] [Moonlight/]: Initialized block sets in 32ms
+[13Jan2025 20:44:39.582] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[13Jan2025 20:44:39.583] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[13Jan2025 20:44:44.022] [main/INFO] [Moonlight/]: Initialized color sets in 125ms
+[13Jan2025 20:44:44.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[13Jan2025 20:44:46.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.47 Target: null
+[13Jan2025 20:44:46.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[13Jan2025 20:44:46.063] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jan2025 20:44:46.264] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -67,313 +63,281 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[11Jan2025 16:10:24.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[11Jan2025 16:10:24.523] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[11Jan2025 16:10:24.523] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jan2025 16:10:24.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[11Jan2025 16:10:24.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[11Jan2025 16:10:24.757] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-jenny/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
-[11Jan2025 16:10:24.757] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-jenny/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
-[11Jan2025 16:10:25.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[11Jan2025 16:10:25.390] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
-[11Jan2025 16:10:33.806] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 4 modifier groups
-[11Jan2025 16:10:33.905] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.908] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_trapdoor_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.910] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_planks_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.912] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_plum_boat as it's serializer returned null
-[11Jan2025 16:10:33.917] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_pine_bookshelf as it's serializer returned null
-[11Jan2025 16:10:33.920] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.920] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_sign_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.921] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/smooth_red_arid_sandstone_from_baking as it's serializer returned null
-[11Jan2025 16:10:33.927] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_bookshelf as it's serializer returned null
-[11Jan2025 16:10:33.933] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:33.937] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg as it's serializer returned null
-[11Jan2025 16:10:33.938] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[11Jan2025 16:10:33.939] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_willow_bookshelf as it's serializer returned null
-[11Jan2025 16:10:33.939] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:33.942] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_pressure_plate_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:33.963] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:quark/smooth_soul_sandstone_from_baking as it's serializer returned null
-[11Jan2025 16:10:33.964] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_beehive as it's serializer returned null
-[11Jan2025 16:10:33.965] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:33.971] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherry_crate as it's serializer returned null
-[11Jan2025 16:10:33.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.974] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_gate_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.977] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:33.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:33.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards as it's serializer returned null
-[11Jan2025 16:10:33.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:33.981] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards as it's serializer returned null
-[11Jan2025 16:10:33.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_beehive as it's serializer returned null
-[11Jan2025 16:10:33.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_ashen_nether_bricks_from_baking as it's serializer returned null
-[11Jan2025 16:10:33.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_plum_bookshelf as it's serializer returned null
-[11Jan2025 16:10:34.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_sign_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_gate_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/cyan_dye_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_sign_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.021] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder as it's serializer returned null
-[11Jan2025 16:10:34.035] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tetranomicon:netherite_opal: com.google.gson.JsonSyntaxException: Unknown item 'oresabovediamonds:black_opal'
-[11Jan2025 16:10:34.035] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.036] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_door_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_furnace_boat as it's serializer returned null
-[11Jan2025 16:10:34.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_crate as it's serializer returned null
-[11Jan2025 16:10:34.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_planks_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_pine_chest as it's serializer returned null
-[11Jan2025 16:10:34.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:quark/clean_glass_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.047] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_furnace_boat as it's serializer returned null
-[11Jan2025 16:10:34.048] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_crimson_nether_bricks_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.058] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_beehive as it's serializer returned null
-[11Jan2025 16:10:34.058] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.059] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_bookshelf as it's serializer returned null
-[11Jan2025 16:10:34.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_furnace_boat as it's serializer returned null
-[11Jan2025 16:10:34.061] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.063] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.063] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[11Jan2025 16:10:34.065] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_warped_nether_bricks_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder as it's serializer returned null
-[11Jan2025 16:10:34.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[11Jan2025 16:10:34.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_purpur_block_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards as it's serializer returned null
-[11Jan2025 16:10:34.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.085] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_door_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_sign_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_wisteria_bookshelf as it's serializer returned null
-[11Jan2025 16:10:34.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherries as it's serializer returned null
-[11Jan2025 16:10:34.089] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.091] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_pressure_plate_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[11Jan2025 16:10:34.095] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_bookshelf as it's serializer returned null
-[11Jan2025 16:10:34.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.102] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_gate_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.103] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.104] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.105] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_bookshelf as it's serializer returned null
-[11Jan2025 16:10:34.106] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_planks_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_trapdoor_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.109] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_gate_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.111] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_plum_chest as it's serializer returned null
-[11Jan2025 16:10:34.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum as it's serializer returned null
-[11Jan2025 16:10:34.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_chest as it's serializer returned null
-[11Jan2025 16:10:34.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_willow_chest as it's serializer returned null
-[11Jan2025 16:10:34.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_eumus_bricks_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_pressure_plate_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_furnace_boat as it's serializer returned null
-[11Jan2025 16:10:34.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_pine_boat as it's serializer returned null
-[11Jan2025 16:10:34.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.123] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_planks_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/smooth_arid_sandstone_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_end_stone_bricks_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.126] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.127] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.128] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.128] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe witheringboon:wardenhunter: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[11Jan2025 16:10:34.130] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/eumus_brick_from_baking as it's serializer returned null
-[11Jan2025 16:10:34.131] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder as it's serializer returned null
-[11Jan2025 16:10:34.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_door_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.141] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_wisteria_boat as it's serializer returned null
-[11Jan2025 16:10:34.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.146] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.147] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg_crate as it's serializer returned null
-[11Jan2025 16:10:34.148] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.148] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_pressure_plate_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.155] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.157] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_chest as it's serializer returned null
-[11Jan2025 16:10:34.158] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.158] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.163] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.163] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaves_from_leaf_piles as it's serializer returned null
-[11Jan2025 16:10:34.164] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_wisteria_chest as it's serializer returned null
-[11Jan2025 16:10:34.167] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.168] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_trapdoor_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.169] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.170] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.179] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder as it's serializer returned null
-[11Jan2025 16:10:34.184] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.186] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[11Jan2025 16:10:34.187] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_door_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.189] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaf_pile as it's serializer returned null
-[11Jan2025 16:10:34.191] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_trapdoor_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.192] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_beehive as it's serializer returned null
-[11Jan2025 16:10:34.192] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_chest as it's serializer returned null
-[11Jan2025 16:10:34.194] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.196] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[11Jan2025 16:10:34.199] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_willow_boat as it's serializer returned null
-[11Jan2025 16:10:34.201] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[11Jan2025 16:10:34.206] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards as it's serializer returned null
-[11Jan2025 16:10:34.209] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.211] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_planks_sawing as it's serializer returned null
-[11Jan2025 16:10:34.214] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_chest as it's serializer returned null
-[11Jan2025 16:10:34.216] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[11Jan2025 16:10:34.217] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_logs_sawing as it's serializer returned null
-[11Jan2025 16:10:34.226] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[11Jan2025 16:10:34.254] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_atmospheric' as its conditions were not met
-[11Jan2025 16:10:34.254] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_autumnity' as its conditions were not met
-[11Jan2025 16:10:34.258] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_endergetic' as its conditions were not met
-[11Jan2025 16:10:34.260] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 11 modifier groups
-[11Jan2025 16:10:34.533] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3143 advancements
-[11Jan2025 16:10:34.552] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[11Jan2025 16:10:34.562] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[11Jan2025 16:10:34.568] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
-[11Jan2025 16:10:34.574] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id witheringboon:inject_jungle_temple_lostviper - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: witheringboon:lostviperee
-[11Jan2025 16:10:34.580] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[11Jan2025 16:10:34.580] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 tiers
-[11Jan2025 16:10:34.582] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
-[11Jan2025 16:10:34.592] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 115 materials
-[11Jan2025 16:10:34.614] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 139 improvements
-[11Jan2025 16:10:34.766] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  94 modules
-[11Jan2025 16:10:35.129] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
-[11Jan2025 16:10:35.130] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  21 synergies
-[11Jan2025 16:10:35.133] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  14 replacements
-[11Jan2025 16:10:35.151] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 406 schematics
-[11Jan2025 16:10:35.277] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  27 crafting_effects
-[11Jan2025 16:10:35.290] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  42 repairs
-[11Jan2025 16:10:35.294] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   3 actions
-[11Jan2025 16:10:35.296] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
-[11Jan2025 16:10:35.297] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
-[11Jan2025 16:10:35.297] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
-[11Jan2025 16:10:35.298] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
-[11Jan2025 16:10:35.373] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
-[11Jan2025 16:10:36.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[11Jan2025 16:10:36.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jan2025 16:10:36.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jan2025 16:10:36.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jan2025 16:10:36.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jan2025 16:10:36.381] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jan2025 16:10:36.499] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11Jan2025 16:10:36.499] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[11Jan2025 16:10:36.499] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11Jan2025 16:10:36.500] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[11Jan2025 16:10:36.623] [Server thread/INFO] [Framework/]: Loading server configs...
-[11Jan2025 16:10:36.660] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[11Jan2025 16:10:36.661] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[11Jan2025 16:10:36.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jan2025 16:10:37.492] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[11Jan2025 16:10:37.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jan2025 16:10:40.689] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.690] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.690] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.691] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.694] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.695] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:40.696] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:41.100] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jan2025 16:10:41.983] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4384 ms
-[11Jan2025 16:10:41.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.469s)! For help, type "help"
-[11Jan2025 16:10:42.039] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jan2025 16:10:42.047] [Server thread/WARN] [ModernFix/]: Dedicated server took 53.448 seconds to load
-[11Jan2025 16:10:55.315] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samueleja[/127.16.210.229:47335] logged in with entity id 84 at (2400.863084524985, 120.0, -1115.202914535948)
-[11Jan2025 16:10:55.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja joined the game
-[11Jan2025 16:10:55.720] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Samueleja
-[11Jan2025 16:10:57.642] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[11Jan2025 16:11:18.628] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6030ms or 120 ticks behind
-[11Jan2025 16:13:06.085] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2337ms or 46 ticks behind
-[11Jan2025 16:13:25.090] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:43583] logged in with entity id 799 at (2398.574981084197, 120.5625, -1115.4577625390566)
-[11Jan2025 16:13:25.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
-[11Jan2025 16:13:25.410] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
-[11Jan2025 16:18:39.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Getting Another Upgrade]
-[11Jan2025 16:19:16.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 0.05
-[11Jan2025 16:29:01.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [You Monster...]
-[11Jan2025 16:29:01.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has completed the challenge [Overkill]
-[11Jan2025 16:29:32.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Amateur Archaeologist]
-[11Jan2025 16:38:07.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Hot Stuff]
-[11Jan2025 16:42:38.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Long Gone]
-[11Jan2025 16:42:44.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Long Gone]
-[11Jan2025 16:43:27.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement ["Salvage"]
-[11Jan2025 16:44:46.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> claw
-[11Jan2025 16:47:00.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Deep Extraction]
-[11Jan2025 16:47:29.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Clawfinger]
-[11Jan2025 16:51:38.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Chest Slayer]
-[11Jan2025 16:51:57.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Intradimensional Technology]
-[11Jan2025 16:53:23.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has completed the challenge [It Spreads]
-[11Jan2025 16:53:33.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> oh no
-[11Jan2025 16:53:52.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Thermal Container]
-[11Jan2025 16:53:52.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Thermal Transfer]
-[11Jan2025 16:54:34.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Clawfinger]
-[11Jan2025 16:54:53.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement ["Salvage"]
-[11Jan2025 16:56:36.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Universal Fastener]
-[11Jan2025 17:00:32.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2447, y=64, z=-515} BlockPos{x=2447, y=62, z=-514}
-[11Jan2025 17:00:41.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja moved too quickly! 9.426731153593664,1.2491870787446828,3.3895059832602215
-[11Jan2025 17:00:50.321] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2527, y=64, z=-485} BlockPos{x=2528, y=62, z=-484}
-[11Jan2025 17:01:05.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
-[11Jan2025 17:10:01.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Tightly Wrought]
-[11Jan2025 17:11:30.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Hammer III (Iron)]
-[11Jan2025 17:18:51.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has reached the goal [Half a flight]
-[11Jan2025 17:19:06.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Half a flight]
-[11Jan2025 17:19:19.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [We Need to Go Deeper]
-[11Jan2025 17:19:25.417] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9619ms or 192 ticks behind
-[11Jan2025 17:19:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [We Need to Go Deeper]
-[11Jan2025 17:25:04.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 133 45 33
-[11Jan2025 17:34:13.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [A Terrible Fortress]
-[11Jan2025 17:34:17.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [A Terrible Fortress]
-[11Jan2025 17:34:34.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Into Fire]
-[11Jan2025 17:35:25.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Into Fire]
-[11Jan2025 17:36:54.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Arcane Additions]
-[11Jan2025 17:37:18.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> -532 58 472
-[11Jan2025 17:39:50.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Frightening Rush]
-[11Jan2025 17:39:51.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Frightening Rush]
-[11Jan2025 17:39:55.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Phasmophobic]
-[11Jan2025 17:40:05.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Phasmophobic]
-[11Jan2025 17:43:47.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Arcane Additions]
-[11Jan2025 17:43:55.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Non-renewable? Yeah, right..]
-[11Jan2025 17:45:36.805] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
-[11Jan2025 17:45:36.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
-[11Jan2025 17:51:29.678] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:41809] logged in with entity id 24674 at (-239.8163035537766, 60.0, 349.360030263038)
-[11Jan2025 17:51:29.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
-[11Jan2025 17:51:29.778] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
-[11Jan2025 17:54:57.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
-[11Jan2025 17:54:57.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
-[11Jan2025 17:57:34.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Hidden in the Depths]
-[11Jan2025 18:08:09.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:39209] logged in with entity id 29013 at (-219.37044530117092, 93.0, 265.30000001192093)
-[11Jan2025 18:08:09.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
-[11Jan2025 18:08:09.690] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
-[11Jan2025 18:08:12.661] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VeinGoblinTrader['Jose Manuel Alberto de las Montañas de los Andes I'/28823, l='ServerLevel[world]', x=317.57, y=35.23, z=-110.73] died: Jose Manuel Alberto de las Montañas de los Andes I hit the ground too hard
-[11Jan2025 18:08:27.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> tp
-[11Jan2025 18:08:51.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Teleported SimpleBruhCat to Samueleja]
-[11Jan2025 18:10:02.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Those Were the Days]
-[11Jan2025 18:10:06.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Those Were the Days]
-[11Jan2025 18:13:47.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has reached the goal [Pray to the Goddess]
-[11Jan2025 18:13:55.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Pray to the Goddess]
-[11Jan2025 18:16:36.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has reached the goal [Hammer IV (Blackstone)]
-[11Jan2025 18:16:58.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has reached the goal [Hammer IV (Blackstone)]
-[11Jan2025 18:21:54.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 2442 124 -1061
-[11Jan2025 18:22:33.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Creative Mode]
-[11Jan2025 18:22:36.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Survival Mode]
-[11Jan2025 18:22:44.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat hit the ground too hard
-[11Jan2025 18:22:54.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Spectator Mode]
-[11Jan2025 18:22:55.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Samueleja: Set own game mode to Survival Mode]
-[11Jan2025 18:24:25.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Hidden in the Depths]
-[11Jan2025 18:34:02.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat suffocated in a wall
-[11Jan2025 18:52:18.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> oe
-[11Jan2025 18:52:31.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> ya me voy ya
-[11Jan2025 18:52:34.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> voy a comer
-[11Jan2025 18:52:37.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> y pasear a mi perroi
-[11Jan2025 18:52:38.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> :v
-[11Jan2025 18:52:41.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> aea
-[11Jan2025 18:52:43.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja lost connection: Disconnected
-[11Jan2025 18:52:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
-[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
-[11Jan2025 18:52:44.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 20:44:46.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
+[13Jan2025 20:44:46.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[13Jan2025 20:44:46.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Starting version check at https://changelogs.moddinglegacy.com/midnight.json
+[13Jan2025 20:44:46.819] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Jan2025 20:44:46.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[13Jan2025 20:44:46.851] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23170!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[13Jan2025 20:44:46.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jan2025 20:44:47.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[13Jan2025 20:44:47.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[13Jan2025 20:44:47.288] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[13Jan2025 20:44:47.638] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-jenny/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[13Jan2025 20:44:47.639] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-jenny/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[13Jan2025 20:44:48.742] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[13Jan2025 20:45:04.351] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 4 modifier groups
+[13Jan2025 20:45:04.534] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.545] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_trapdoor_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.551] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_planks_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.558] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_plum_boat as it's serializer returned null
+[13Jan2025 20:45:04.559] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_pine_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.561] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.562] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_sign_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.562] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/smooth_red_arid_sandstone_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.569] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.578] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.581] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg as it's serializer returned null
+[13Jan2025 20:45:04.582] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[13Jan2025 20:45:04.584] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_willow_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:04.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_pressure_plate_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.590] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:04.620] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:quark/smooth_soul_sandstone_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_beehive as it's serializer returned null
+[13Jan2025 20:45:04.627] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherry_crate as it's serializer returned null
+[13Jan2025 20:45:04.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.655] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_gate_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.658] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.659] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.660] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards as it's serializer returned null
+[13Jan2025 20:45:04.662] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards as it's serializer returned null
+[13Jan2025 20:45:04.670] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_beehive as it's serializer returned null
+[13Jan2025 20:45:04.702] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_ashen_nether_bricks_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_plum_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_sign_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_gate_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.714] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/cyan_dye_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_sign_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder as it's serializer returned null
+[13Jan2025 20:45:04.737] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tetranomicon:netherite_opal: com.google.gson.JsonSyntaxException: Unknown item 'oresabovediamonds:black_opal'
+[13Jan2025 20:45:04.739] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:04.745] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_door_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.746] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_furnace_boat as it's serializer returned null
+[13Jan2025 20:45:04.746] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_crate as it's serializer returned null
+[13Jan2025 20:45:04.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_planks_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.752] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_pine_chest as it's serializer returned null
+[13Jan2025 20:45:04.757] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.760] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:quark/clean_glass_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.761] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_furnace_boat as it's serializer returned null
+[13Jan2025 20:45:04.765] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_crimson_nether_bricks_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.770] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.776] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_beehive as it's serializer returned null
+[13Jan2025 20:45:04.777] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.778] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.781] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_furnace_boat as it's serializer returned null
+[13Jan2025 20:45:04.788] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.790] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_stairs_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.800] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[13Jan2025 20:45:04.808] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:nether_extension/cracked_warped_nether_bricks_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.818] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_slab_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.820] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder as it's serializer returned null
+[13Jan2025 20:45:04.821] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:04.825] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[13Jan2025 20:45:04.826] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.827] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_purpur_block_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.837] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_boards as it's serializer returned null
+[13Jan2025 20:45:04.837] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.843] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.852] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_button_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.853] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_fence_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.854] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_door_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.859] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_sign_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:chiseled_wisteria_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:cherries as it's serializer returned null
+[13Jan2025 20:45:04.870] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.879] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.883] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_pressure_plate_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.884] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[13Jan2025 20:45:04.890] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.896] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:blue_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.912] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.914] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.927] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_fence_gate_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.927] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.933] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.937] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_bookshelf as it's serializer returned null
+[13Jan2025 20:45:04.943] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_planks_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_trapdoor_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.946] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_gate_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.953] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:hibiscus_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_plum_chest as it's serializer returned null
+[13Jan2025 20:45:04.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum as it's serializer returned null
+[13Jan2025 20:45:04.957] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_chest as it's serializer returned null
+[13Jan2025 20:45:04.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pink_wisteria_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:04.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_slab_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.964] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_willow_chest as it's serializer returned null
+[13Jan2025 20:45:04.965] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_eumus_bricks_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.965] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_button_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_pressure_plate_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_furnace_boat as it's serializer returned null
+[13Jan2025 20:45:04.974] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_pine_boat as it's serializer returned null
+[13Jan2025 20:45:04.982] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_stairs_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.987] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_planks_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.989] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:atmospheric/smooth_arid_sandstone_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.989] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/cracked_end_stone_bricks_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder_from_plum_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:04.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_button_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:04.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:04.993] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe witheringboon:wardenhunter: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[13Jan2025 20:45:04.995] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe clayworks:endergetic/eumus_brick_from_baking as it's serializer returned null
+[13Jan2025 20:45:04.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:purple_wisteria_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:05.002] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder as it's serializer returned null
+[13Jan2025 20:45:05.002] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_door_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.006] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_wisteria_boat as it's serializer returned null
+[13Jan2025 20:45:05.008] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:05.011] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_boards_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.011] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:duck_egg_crate as it's serializer returned null
+[13Jan2025 20:45:05.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_boards_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.014] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_pressure_plate_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.026] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_button_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.027] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_chest as it's serializer returned null
+[13Jan2025 20:45:05.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.030] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_stairs_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_stairs_from_wisteria_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:white_wisteria_leaves_from_leaf_piles as it's serializer returned null
+[13Jan2025 20:45:05.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:trapped_wisteria_chest as it's serializer returned null
+[13Jan2025 20:45:05.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_slab_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.058] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_trapdoor_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.059] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_ladder_from_pine_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_ladder_from_willow_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_ladder as it's serializer returned null
+[13Jan2025 20:45:05.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:05.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[13Jan2025 20:45:05.065] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_door_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.066] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_leaf_pile as it's serializer returned null
+[13Jan2025 20:45:05.067] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_trapdoor_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_beehive as it's serializer returned null
+[13Jan2025 20:45:05.069] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_chest as it's serializer returned null
+[13Jan2025 20:45:05.070] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_fence_from_willow_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[13Jan2025 20:45:05.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:large_willow_boat as it's serializer returned null
+[13Jan2025 20:45:05.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[13Jan2025 20:45:05.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_boards as it's serializer returned null
+[13Jan2025 20:45:05.090] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:pine_fence_from_pine_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:wisteria_ladder_from_wisteria_planks_sawing as it's serializer returned null
+[13Jan2025 20:45:05.094] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:willow_chest as it's serializer returned null
+[13Jan2025 20:45:05.095] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[13Jan2025 20:45:05.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe environmental:plum_slab_from_plum_logs_sawing as it's serializer returned null
+[13Jan2025 20:45:05.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[13Jan2025 20:45:05.123] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_atmospheric' as its conditions were not met
+[13Jan2025 20:45:05.125] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_autumnity' as its conditions were not met
+[13Jan2025 20:45:05.135] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier group named 'environmental:husbandry/tame_all_slabfish_endergetic' as its conditions were not met
+[13Jan2025 20:45:05.140] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 11 modifier groups
+[13Jan2025 20:45:05.906] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3143 advancements
+[13Jan2025 20:45:05.978] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13Jan2025 20:45:06.001] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[13Jan2025 20:45:06.012] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[13Jan2025 20:45:06.035] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id witheringboon:inject_jungle_temple_lostviper - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: witheringboon:lostviperee
+[13Jan2025 20:45:06.053] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[13Jan2025 20:45:06.055] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   2 tiers
+[13Jan2025 20:45:06.061] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   8 tweaks
+[13Jan2025 20:45:06.083] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 115 materials
+[13Jan2025 20:45:06.129] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded 139 improvements
+[13Jan2025 20:45:06.433] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  94 modules
+[13Jan2025 20:45:07.144] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 enchantments
+[13Jan2025 20:45:07.146] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  21 synergies
+[13Jan2025 20:45:07.167] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  14 replacements
+[13Jan2025 20:45:07.208] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded 406 schematics
+[13Jan2025 20:45:07.548] [main/INFO] [se.mickelus.mutil.data.MergingDataStore/]: Loaded  27 crafting_effects
+[13Jan2025 20:45:07.570] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded  42 repairs
+[13Jan2025 20:45:07.582] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   3 actions
+[13Jan2025 20:45:07.585] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 destabilization
+[13Jan2025 20:45:07.586] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 unlocks
+[13Jan2025 20:45:07.586] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 archetypes
+[13Jan2025 20:45:07.587] [main/INFO] [se.mickelus.mutil.data.DataStore/]: Loaded   0 item_effects
+[13Jan2025 20:45:07.708] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
+[13Jan2025 20:45:09.102] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Jan2025 20:45:09.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Jan2025 20:45:09.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Jan2025 20:45:09.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jan2025 20:45:09.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Jan2025 20:45:09.639] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Jan2025 20:45:09.948] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Jan2025 20:45:09.949] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Jan2025 20:45:09.954] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Jan2025 20:45:09.954] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Jan2025 20:45:10.203] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Jan2025 20:45:10.280] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[13Jan2025 20:45:10.287] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[13Jan2025 20:45:10.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Jan2025 20:45:10.890] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[13Jan2025 20:45:12.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jan2025 20:45:16.202] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.271] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.278] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.281] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.283] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.285] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.289] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.292] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:16.872] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:17.185] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:17.453] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:18.161] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:18.401] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Jan2025 20:45:18.754] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:18.889] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:19.387] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:19.891] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:20.400] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Jan2025 20:45:20.404] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jan2025 20:45:21.508] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Jan2025 20:45:22.061] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9675 ms
+[13Jan2025 20:45:22.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.075s)! For help, type "help"
+[13Jan2025 20:45:22.514] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[13Jan2025 20:45:22.666] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jan2025 20:45:22.686] [Server thread/WARN] [ModernFix/]: Dedicated server took 109.877 seconds to load
+[13Jan2025 20:45:30.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Samueleja[/127.16.210.229:60377] logged in with entity id 85 at (2382.4378843126924, -39.0, -935.9232240275852)
+[13Jan2025 20:45:30.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja joined the game
+[13Jan2025 20:45:31.231] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Samueleja
+[13Jan2025 20:45:33.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3079ms or 61 ticks behind
+[13Jan2025 20:46:00.502] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12514ms or 250 ticks behind
+[13Jan2025 20:46:50.773] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:33293] logged in with entity id 519 at (2396.333674664891, 121.0, -1109.7912216097407)
+[13Jan2025 20:46:50.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 20:46:50.968] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 20:46:55.003] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[13Jan2025 20:47:20.662] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Timed out
+[13Jan2025 20:47:20.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 20:47:34.419] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2980ms or 59 ticks behind
+[13Jan2025 20:47:41.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:40263] logged in with entity id 785 at (2396.333674664891, 121.0, -1109.7912216097407)
+[13Jan2025 20:47:41.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 20:47:41.499] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
