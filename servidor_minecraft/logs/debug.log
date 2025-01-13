@@ -4973,3 +4973,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 22:14:05.465] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
 [13Jan2025 22:15:30.907] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
 [13Jan2025 22:15:32.305] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[13Jan2025 22:15:42.654] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja lost connection: Disconnected
+[13Jan2025 22:15:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
+[13Jan2025 22:15:43.187] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jan2025 22:15:43.194] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jan2025 22:20:43.186] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jan2025 22:20:43.193] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jan2025 22:25:43.185] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jan2025 22:25:43.193] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

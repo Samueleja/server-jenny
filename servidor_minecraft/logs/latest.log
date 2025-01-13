@@ -380,3 +380,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 21:32:43.016] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
 [13Jan2025 21:37:43.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Timed out
 [13Jan2025 21:37:43.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 22:15:42.654] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Samueleja lost connection: Disconnected
+[13Jan2025 22:15:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja left the game
