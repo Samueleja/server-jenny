@@ -4922,3 +4922,21 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 21:51:15.485] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
 [13Jan2025 21:51:23.368] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
 [13Jan2025 21:53:18.822] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
+[13Jan2025 21:55:30.754] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[13Jan2025 21:55:32.206] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[13Jan2025 21:55:43.264] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jan2025 21:55:43.283] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jan2025 21:56:00.943] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 21:56:03.007] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 21:56:18.810] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 21:56:24.326] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 21:58:20.679] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
+[13Jan2025 22:00:30.800] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[13Jan2025 22:00:32.248] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (63197ce5-6a51-420c-8991-899216ac22cc)
+[13Jan2025 22:00:43.225] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jan2025 22:00:43.241] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jan2025 22:01:01.003] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 22:01:03.106] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering effect data for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 22:01:20.009] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering attribute modifiers for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 22:01:24.634] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.ModularItem/]: Gathering tool data for  (a7333c96-0a34-484e-a7ab-e93084d6ff23)
+[13Jan2025 22:03:50.608] [Server thread/DEBUG] [se.mickelus.tetra.items.modular.IModularItem/]: Gathering properties for  (INVALID-modular_sword)
