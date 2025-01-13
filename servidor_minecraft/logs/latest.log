@@ -352,3 +352,29 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 21:14:26.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Crafting a New Look]
 [13Jan2025 21:17:29.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 2374 -32 -936
 [13Jan2025 21:19:41.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 4
+[13Jan2025 21:26:22.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 999+ ping
+[13Jan2025 21:27:37.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[13Jan2025 21:27:37.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 21:27:37.206] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jan2025 21:29:01.830] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:39607] logged in with entity id 8585 at (2322.300000011921, -29.0, -938.6999999880791)
+[13Jan2025 21:29:01.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 21:29:01.888] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:31:12.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat was kicked for floating too long!
+[13Jan2025 21:31:12.058] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Flying is not enabled on this server
+[13Jan2025 21:31:12.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 21:31:12.111] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jan2025 21:31:31.070] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:43745] logged in with entity id 9050 at (2278.5914433185167, -47.0, -894.7024077623495)
+[13Jan2025 21:31:31.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 21:31:31.126] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:32:21.508] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat was kicked for floating too long!
+[13Jan2025 21:32:21.558] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Flying is not enabled on this server
+[13Jan2025 21:32:21.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 21:32:31.086] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:39945] logged in with entity id 9533 at (2287.9719035530825, -42.975575911786315, -920.1453390256501)
+[13Jan2025 21:32:31.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 21:32:31.136] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:32:36.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat was kicked for floating too long!
+[13Jan2025 21:32:36.170] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Flying is not enabled on this server
+[13Jan2025 21:32:36.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 21:32:42.967] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:47743] logged in with entity id 9700 at (2287.9719035530825, -43.20920791782879, -920.1453390256501)
+[13Jan2025 21:32:42.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 21:32:43.016] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
