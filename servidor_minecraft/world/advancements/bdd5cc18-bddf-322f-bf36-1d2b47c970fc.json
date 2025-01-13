@@ -4114,5 +4114,11 @@
     },
     "done": true
   },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2025-01-13 21:04:56 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

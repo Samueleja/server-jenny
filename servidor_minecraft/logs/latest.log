@@ -341,3 +341,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 20:47:41.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:40263] logged in with entity id 785 at (2396.333674664891, 121.0, -1109.7912216097407)
 [13Jan2025 20:47:41.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
 [13Jan2025 20:47:41.499] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:04:56.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Samueleja has made the advancement [Chest Slayer]
+[13Jan2025 21:08:29.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 2402 102 -850
+[13Jan2025 21:11:08.405] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Disconnected
+[13Jan2025 21:11:08.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
+[13Jan2025 21:11:20.691] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:34917] logged in with entity id 5619 at (2407.226229198945, 121.0, -915.4086278981288)
+[13Jan2025 21:11:20.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
+[13Jan2025 21:11:20.883] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:12:59.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> 2376 78 -935
