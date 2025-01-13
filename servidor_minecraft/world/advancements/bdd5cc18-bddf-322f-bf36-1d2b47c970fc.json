@@ -864,7 +864,8 @@
       "minecraft:piglin": "2025-01-11 17:23:41 +0000",
       "minecraft:enderman": "2025-01-11 00:14:52 +0000",
       "minecraft:zombie": "2025-01-10 21:08:18 +0000",
-      "minecraft:drowned": "2025-01-10 22:40:24 +0000"
+      "minecraft:drowned": "2025-01-10 22:40:24 +0000",
+      "minecraft:zombie_villager": "2025-01-13 21:20:00 +0000"
     },
     "done": false
   },

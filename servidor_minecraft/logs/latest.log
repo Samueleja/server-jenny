@@ -349,3 +349,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 21:11:20.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
 [13Jan2025 21:11:20.883] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
 [13Jan2025 21:12:59.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Samueleja> 2376 78 -935
+[13Jan2025 21:14:26.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat has made the advancement [Crafting a New Look]
+[13Jan2025 21:17:29.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 2374 -32 -936
+[13Jan2025 21:19:41.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SimpleBruhCat> 4
