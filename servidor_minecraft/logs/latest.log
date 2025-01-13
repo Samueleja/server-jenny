@@ -378,3 +378,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jan2025 21:32:42.967] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SimpleBruhCat[/127.80.23.163:47743] logged in with entity id 9700 at (2287.9719035530825, -43.20920791782879, -920.1453390256501)
 [13Jan2025 21:32:42.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat joined the game
 [13Jan2025 21:32:43.016] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: SimpleBruhCat
+[13Jan2025 21:37:43.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SimpleBruhCat lost connection: Timed out
+[13Jan2025 21:37:43.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SimpleBruhCat left the game
